@@ -12,54 +12,37 @@ body {
 }
 
 /* Header Section Style */
-.site-header .navbar {
-  padding: 8.rem 0;
-}
 .site-header .nav-link{
     font-weight: 500;
 }
-.site-header .navbar-brand{
-    font-weight: 600;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-.email-input{
-    width: 30%;
-}
-.signup-btn{
-    font-weight: 500;
-    font-size: .8rem;
-    padding: .8rem 1.5rem;
-    border-radius: .2rem;
-    border: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: var(--font-color);
-    transition: 1.5s;
-    background-color: var(--bg-color);
-}
-.signup-btn:hover{
-    color: var(--hover-font-color);
-    background-color: var(--hover-bg-color);
-}
+
 /* Hero Area Style */
 .hero-area{
   background: url("./../images/hero-bg.webp") no-repeat center center/cover;
   color: var(--font-color);
   height: 70vh;
 }
+.input-style{
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .input-style{
+    width: 60%;
+  }
+  .form-style{
+    display: flex;
+    flex-direction: column;
+  }
+ }
 /* Features Section Style */
 .feature-icon i{
   font-size: 5rem;
 }
+
 /* Feature Details Section */
 .feature-image{
   min-height: 30rem;
   background-size: cover;
-}
-.feature-text{
-  padding: 5rem;
-  background-color: #ffffff;
 }
 /* Testimonials Section Style */
 .testimonial-item {
@@ -69,11 +52,4 @@ body {
   width: 200px;
   height: 200px;
   object-fit: cover;
-}
-/* Footer Section Style */
-footer{
-  padding: 1rem 0;
-}
-footer p{
-  font-size: 1.1rem;
 }

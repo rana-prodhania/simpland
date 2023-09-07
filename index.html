@@ -1,217 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SimLand</title>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SimLand</title>
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet" />
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md py-3">
+        <div class="container">
+          <a class="navbar-brand fw-semibold fs-3 text-uppercase" href="#">
+            SimLand
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-dark mx-md-3 py-2 px-3">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Section End -->
 
-<body>
-  <!-- Header Section Start -->
-  <header class="site-header" id="site-header">
-    <nav class="navbar navbar-expand-md">
+    <!-- Hero Area Start -->
+    <section
+      class="hero-area d-flex flex-column align-content-center justify-content-center"
+      id="hero-area"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#"> SimLand </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon bg-white"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          <button class="signup-btn ms-md-3">Sign Up</button>
+        <div class="hero-content">
+          <h1 class="display-4 text-center text-white">
+            Generate more leads with a professional landing page!
+          </h1>
+          <form
+            class="d-flex form-style justify-content-center mt-5 gap-2 align-items-center"
+            action=""
+          >
+            <input
+              class="form-control input-style p-3"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button class="btn btn-style btn-primary p-3">Get Started</button>
+          </form>
         </div>
       </div>
-    </nav>
-  </header>
-  <!-- Header Section End -->
+    </section>
+    <!-- Hero Area End -->
+    <!-- Features Section Start -->
+    <section class="features-section" id="features-section">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-4 p-md-5">
+            <div class="feature-icon text-center">
+              <i class="bi bi-window text-primary"></i>
+            </div>
+            <div class="feature-content">
+              <h2 class="text-center">Fully Responsive</h2>
+              <p class="text-center">
+                This theme will look great on any device, no matter the size!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-md-5">
+            <div class="feature-icon text-center">
+              <i class="bi bi-layers m-auto text-primary"></i>
+            </div>
+            <div class="feature-content">
+              <h2 class="text-center">Bootstrap 5</h2>
+              <p class="text-center">
+                Featuring the latest build of the new Bootstrap 5 framework!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 p-md-5">
+            <div class="feature-icon text-center">
+              <i class="bi bi-terminal m-auto text-primary"></i>
+            </div>
+            <div class="feature-content">
+              <h2 class="text-center">Easy to Use</h2>
+              <p class="text-center">
+                Ready to use with your own content, or customize the source
+                files!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features Section End -->
+    <!-- Feature Details Section Start -->
+    <section class="feature-details" id="feature-details">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-md-6 order-md-2 text-white feature-image"
+            style="background-image: url('./images/feature-image-1.jpg')"
+          ></div>
 
-  <!-- Hero Area Start -->
-  <section class="hero-area d-flex flex-column align-content-center justify-content-center" id="hero-area">
-    <div class="container">
-      <div class="hero-content">
-        <h1 class="display-4  text-center text-white">
-          Generate more leads with a professional landing page!
-        </h1>
-        <form class="d-flex justify-content-center mt-5 gap-2 align-items-center" action="">
-          <input class="form-control email-input p-3" type="email" placeholder="Enter your email" />
-          <button class="btn btn-primary p-3">Get Started</button>
-        </form>
-      </div>
-    </div>
-  </section>
-  <!-- Hero Area End -->
-  <!-- Features Section Start -->
-  <section class="features-section" id="features-section">
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-4 p-5">
-          <div class="feature-icon text-center">
-            <i class="bi bi-window text-primary"></i>
-          </div>
-          <div class="feature-content">
-            <h2 class="text-center">
-              Fully Responsive Design
-            </h2>
-            <p class="text-center">This theme will look great on any device, no matter the size!</p>
+          <div
+            class="p-5 bg-white col-md-6 order-md-1 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="text-center">Fully Responsive Design</h2>
+            <p class="text-md-center">
+              When you use a theme created by Start Bootstrap, you know that the
+              theme will look great on any device, whether it's a phone, tablet,
+              or desktop the page will behave responsively!
+            </p>
           </div>
         </div>
-        <div class="col-md-4 p-5">
-          <div class="feature-icon text-center">
-            <i class="bi bi-layers m-auto text-primary"></i>
-          </div>
-          <div class="feature-content">
-            <h2 class="text-center">
-              Bootstrap 5 Ready
-            </h2>
-            <p class="text-center">Featuring the latest build of the new Bootstrap 5 framework!</p>
-          </div>
-        </div>
-        <div class="col-md-4 p-5">
-          <div class="feature-icon text-center">
-            <i class="bi bi-terminal m-auto text-primary"></i>
-          </div>
-          <div class="feature-content ">
-            <h2 class="text-center">
-              Easy to Use
-            </h2>
-            <p class="text-center">Ready to use with your own content, or customize the source files!</p>
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- Features Section End -->
-  <!-- Feature Details Section Start -->
-  <section class="feature-details" id="feature-details">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 order-lg-2 text-white feature-image"
-          style="background-image: url('./images/feature-image-1.jpg')">
-        </div>
+        <div class="row">
+          <div
+            class="col-md-6 order-md-1 text-white feature-image"
+            style="background-image: url('./images/feature-image-2.jpg')"
+          ></div>
 
-        <div class="feature-text col-md-6 order-lg-1 d-flex  flex-column justify-content-center align-items-center">
-          <h2 class="text-center">Fully Responsive Design</h2>
-          <p class="text-center">
-            When you use a theme created by Start Bootstrap, you know that the theme will look great on any device,
-            whether it's a phone, tablet, or desktop the page will behave responsively!
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 order-lg-1 text-white feature-image"
-          style="background-image: url('./images/feature-image-2.jpg') ">
-        </div>
-
-        <div class="feature-text col-md-6 order-lg-2 d-flex  flex-column justify-content-center align-items-center">
-          <h2 class="text-center">Updated For Bootstrap 5</h2>
-          <p class="text-center">
-            Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web
-            development! All of the themes on Start Bootstrap are now using Bootstrap 5!
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 order-lg-2 text-white feature-image"
-          style="background-image: url('./images/feature-image-3.jpg')">
-        </div>
-
-        <div class="feature-text col-md-6 order-lg-1 d-flex  flex-column justify-content-center align-items-center">
-          <h2 class="text-center">Easy to Use & Customize</h2>
-          <p class="text-center">
-            Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization
-            options. Out of the box, just add your content and images, and your new landing page will be ready to go!
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Feature Details Section End -->
-  <!-- Testimonials Section Start -->
-  <section class="testimonials text-center py-5" id="testimonials">
-    <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle object-fit-cover " src="./images/testimonials-1.jpg" alt="..." />
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+          <div
+            class="p-5 bg-white col-md-6 order-md-2 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="text-center">Updated For Bootstrap 5</h2>
+            <p class="text-md-center">
+              Newly improved, and full of great utility classes, Bootstrap 5 is
+              leading the way in mobile responsive web development! All of the
+              themes on Start Bootstrap are now using Bootstrap 5!
+            </p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="./images/testimonials-2.jpg" alt="..." />
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice
-              landing pages."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="./images/testimonials-3.jpg" alt="..." />
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+        <div class="row">
+          <div
+            class="col-md-6 order-md-2 text-white feature-image"
+            style="background-image: url('./images/feature-image-3.jpg')"
+          ></div>
+
+          <div
+            class="p-5 bg-white col-md-6 order-md-1 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="text-center">Easy to Use & Customize</h2>
+            <p class="text-md-center">
+              Landing Page is just HTML and CSS with a splash of SCSS for users
+              who demand some deeper customization options. Out of the box, just
+              add your content and images, and your new landing page will be
+              ready to go!
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Testimonials Section End -->
-  <!-- Footer Section Start -->
-  <footer class="bg-white d-flex justify-content-center align-items-center">
-    <div class="container ">
-      <div class="row">
-        <div class="col-md-6 mt-2">
-          <p>Copyright &copy; 2023. All Rights Reserved By MD. Rana Prodhania</p>
-        </div>
-        <div class="col-md-6">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Terms of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    </section>
+    <!-- Feature Details Section End -->
+    <!-- Testimonials Section Start -->
+    <section class="testimonials text-center py-5" id="testimonials">
+      <div class="container">
+        <h2 class="mb-5">What people are saying...</h2>
+        <div class="row">
+          <div class="col-md-4 co">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle object-fit-cover"
+                src="./images/testimonials-1.jpg"
+                alt="..."
+              />
+              <h5>Margaret E.</h5>
+              <p class="font-weight-light mb-0">
+                "This is fantastic! Thanks so much guys!"
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="./images/testimonials-2.jpg"
+                alt="..."
+              />
+              <h5>Fred S.</h5>
+              <p class="font-weight-light mb-0">
+                "Bootstrap is amazing. I've been using it to create lots of
+                super nice landing pages."
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="./images/testimonials-3.jpg"
+                alt="..."
+              />
+              <h5>Sarah W.</h5>
+              <p class="font-weight-light mb-0">
+                "Thanks so much for making these free resources available to
+                us!"
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
+    <!-- Testimonials Section End -->
+    <!-- Footer Section Start -->
+    <footer class="bg-white d-flex py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col mt-3">
+            <p class="text-sm-center">
+              Copyright &copy; 2023. All Rights Reserved By MD. Rana Prodhania
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 mt-md-2">
+            <ul
+              class="nav justify-md-content-end align-items-sm-center justify-content-md-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Terms of Use</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
